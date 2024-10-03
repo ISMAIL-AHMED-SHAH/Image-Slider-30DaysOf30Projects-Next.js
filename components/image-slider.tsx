@@ -78,9 +78,7 @@ export default function ImageSlider() {
         <p className="text-center text-gray-100 mb-8 bg-gradient-to-r from-blue-500 to-purple-600">
           A simple dynamic image slider/carousel with Unsplash.
         </p>
-        <Carousel
-          className="rounded-lg overflow-hidden relative"
-        >
+        <Carousel className="rounded-lg overflow-hidden relative">
           <CarouselContent>
             {images.map((image, index) => (
               <CarouselItem
@@ -119,6 +117,10 @@ export default function ImageSlider() {
             </Button>
           </div>
         </Carousel>
+        {/* Footer section */}
+        <footer className="mt-4 text-sm text-muted-foreground text-center">
+          Created By Ismail Ahmed Shah
+        </footer>
       </div>
     </div>
   );

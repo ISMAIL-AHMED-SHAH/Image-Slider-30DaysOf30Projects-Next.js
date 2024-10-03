@@ -1,3 +1,19 @@
+Day 24: Image Slider
+Description: A simple dynamic image slider/carousel.
+
+Functionalities:
+
+Display a series of images from unsplash API
+Play/pause the images
+Auto-play option with interval
+
+
+Live on Vercel: https://image-slider-30-days-of30-projects-next-js.vercel.app/
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
